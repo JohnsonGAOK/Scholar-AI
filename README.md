@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Scholar AI - 您的智能学术写作伙伴
 
-## Getting Started
+Scholar AI 是一个基于 Next.js 15 构建的现代化 AI 学术写作助手，旨在利用人工智能技术，帮助研究者和学生解决学术写作中的核心痛点，提升写作效率和质量。
 
-First, run the development server:
+## ✨ 项目愿景
 
+我们的目标是打造一款专注服务于中国市场的、真正懂学术的 AI 写作工具。它不仅能处理语言润色和格式排版等基础工作，更能深度融入文献阅读、思路构建、内容生成的全过程，成为用户不可或缺的智能学术伙伴。
+
+## 🚀 核心功能规划
+
+### 第一阶段 - 智能写作核心
+
+- [ ] **智能润色引擎**: 将口语化的草稿转化为专业、严谨的学术语言，并提供中英双向翻译与润色。
+- [ ] **文献导入与解析**: 支持 PDF、URL、DOI 等方式导入文献，AI 自动提取关键信息生成“文献卡片”。
+- [ ] **基础用户系统**: 支持用户注册和登录，数据在云端同步。
+
+### 第二阶段 - 深度融合
+
+- [ ] **启发式写作**: 结合已导入的文献，根据用户指令生成相关的综述、对比、评论等段落。
+- [ ] **动态论文大纲**: 提供思维导图式的大纲工具，并由 AI 提供思路建议和内容填充。
+- [ ] **智能引用与排版**: 写作过程中自动处理引用，并支持一键套用期刊/学位论文格式模板。
+
+### 第三阶段 - 生态与智能化
+
+- [ ] **学术知识库**: 构建用户个人的学术知识库，智能连接不同文献的观点。
+- [ ] **AI 学术对话**: 基于用户的知识库和写作内容，提供智能问答和学术对话功能。
+- [ ] **团队协作**: 支持多人在线协作撰写同一篇论文。
+
+## 🛠️ 技术栈
+
+- **框架**: Next.js 15 (App Router)
+- **语言**: TypeScript
+- **样式**: Tailwind CSS 4
+- **UI/UX**: 遵循 Apple 设计美学，追求极致简约和沉浸式体验
+- **代码规范**: ESLint
+- **包管理**: npm
+
+## 🏃 快速开始
+
+### 安装依赖
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 启动开发服务器
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+打开 [http://localhost:3000](http://localhost:3000) 查看项目。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🤝 贡献指南
 
-## Learn More
+我们欢迎任何形式的贡献，无论是代码、文档还是功能建议。
 
-To learn more about Next.js, take a look at the following resources:
+1. Fork 本仓库
+2. 创建你的功能分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交你的改动 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 打开一个 Pull Request
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📄 许可证
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+本项目采用 MIT 许可证。
